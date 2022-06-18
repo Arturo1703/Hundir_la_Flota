@@ -1,0 +1,9 @@
+Funciones implementadas:
+ - Chat
+ - Registro y Login
+ - Perfil
+ - Noticias
+ - Tienda
+ - Juegos
+ - Foro
+ - Calendario
