@@ -1,4 +1,4 @@
-<?php namespace es\fdi\ucm\aw\gamersDen;
+<?php namespace es\hundirLaFlota;
   //DEFINICION DE RUTAS IMPORTANTES
   define('BD_HOST', 'localhost'); //Direccion del host donde se aloja la BD (localhost en local, IP para el contenedor)
   define('BD_NAME', 'gamers_den'); //Nombre de la Base de Datos
@@ -16,7 +16,7 @@
    * Se encarga de importar automaticamente los ficheros PHP necesarios para cargar cada pagina/funcion
    */
   spl_autoload_register(function ($class){
-    $prefix = 'es\\fdi\\ucm\\aw\\gamersDen'; //Nombre del namespace usado
+    $prefix = 'es\\hundirLaFlota'; //Nombre del namespace usado
     $base_dir = __DIR__ . '/';
     $len = strlen($prefix);
     if(strncmp($prefix, $class, $len) !== 0){

@@ -1,4 +1,4 @@
-<?php namespace es\fdi\ucm\aw\gamersDen;
+<?php namespace es\hundirLaFlota;
 /**
  * Clase Singleton basica para la gestion y funcionamiento de la aplicacion
  */

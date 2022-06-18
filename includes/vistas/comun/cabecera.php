@@ -1,4 +1,4 @@
-<?php namespace es\fdi\ucm\aw\gamersDen;
+<?php namespace es\HundirlaFlota;
 ?>
 <!DOCTYPE html>
     <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
@@ -13,7 +13,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h1 class = "tituloPrincipalCabecera align-text-bottom"> GAMERS DEN </h1>
+                                        <h1 class = "tituloPrincipalCabecera align-text-bottom"> HUNDIR LA FLOTA </h1>
                                     </div>
                                 </div>
                             </div>
@@ -47,16 +47,8 @@
                                         <div class="col-md-8">
                                         <div class="card-body cabeceraUsuario">
                                         <h5 class="card-title">Usuario desconocido</h5>
-                                        <p class="card-text"><a href='login.php' class='text-decoration-none'>Login</a> <a href='registro.php' class='text-decoration-none'>Registro</a></p>
                                         EOS;
                                     }
-                                    /*if (!isset($_SESSION["login"])) { //Usuario incorrecto
-                                        echo "<p class='text-end'>Usuario desconocido. <a href='login.php' class='text-decoration-none'>Login</a> <a href='registro.php' class='text-decoration-none'>Registro</a></p>";
-                                    }
-                                    else { //Usuario registrado
-                                        $img = Usuario::buscaPorId($_SESSION['ID'])->getAvatar();
-                                        echo "<p class='text-end'>Bienvenido <a href='perfil.php' class='text-decoration-none'>{$_SESSION['Usuario']}</a> (<a href='logout.php' class='text-decoration-none'>salir</a>)</p>";;
-                                    }*/
                                     $saludo .= <<<EOS
                                             </div>
                                         </div>
